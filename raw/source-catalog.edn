@@ -1,0 +1,9 @@
+{:catalog/id "org.worldbank.api"
+ :catalog/source-domain "api.worldbank.org"
+ :catalog/retrieved-at "2026-07-10"
+ :catalog/license "World Bank Indicators API; downstream users must follow World Bank terms of use."
+ :sources
+ [{:indicator "EG.ELC.RNEW.ZS" :title "Renewable electricity output (% of total electricity output)" :observation-year 2021 :path "raw/wdi/renewable-electricity-share-2021.json" :sha256 "0d1a81a9b096065afad2cde23f23bf3b4417a65ca14278920992e0c5aaf4dcf4"}
+  {:indicator "EG.ELC.FOSL.ZS" :title "Electricity production from oil, gas and coal sources (% of total)" :observation-year 2022 :path "raw/wdi/fossil-electricity-share-2022.json" :sha256 "ec053aac7d1dd493cdc47e9120e4e619c33e1d3dbf44b3d02471513ed6efca1b"}
+  {:indicator "EG.ELC.NUCL.ZS" :title "Electricity production from nuclear sources (% of total)" :observation-year 2022 :path "raw/wdi/nuclear-electricity-share-2022.json" :sha256 "86315407bad72afef06960c2b6a282a0d0b33a8bcd488467ddc8ed8185a01960"}
+  {:indicator "EG.FEC.RNEW.ZS" :title "Renewable energy consumption (% of total final energy consumption)" :observation-year 2022 :path "raw/wdi/renewable-final-energy-share-2022.json" :sha256 "be749eada3bdd6403bb715c0272f2d3ddda86838b8f18962c0310d1d32de24aa"}]}
